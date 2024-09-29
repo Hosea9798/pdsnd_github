@@ -211,7 +211,7 @@ def yesorno(df):
         if input('Do you want to check another 5 rows of the dataset?') == "no":
             break
 
-
+# This is the main def.
 def main():
     while True:
         city, month, day = get_filters()
