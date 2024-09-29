@@ -202,7 +202,7 @@ def user_stats(df):
 
     yesorno(df)
 
-
+# This def use for check the first 5 rows of the dataset
 def yesorno(df):
     choose = input("Do you want to check the first 5 rows of the dataset related to the chosen city?\n")
     i = 5
